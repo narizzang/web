@@ -2,7 +2,7 @@
 footer{position:absolute; bottom:0; height:40px; line-height:40px; font-family: 'Roboto', sans-serif; background-color:#e3e3e3; width:100%;}
 
 .main-wrap {display: flex; height:100%; justify-content: center; align-items: center;}
-.main-wrap .main-content{width:70%; height:80%; background-color: #E5F3F4; display:flex; align-items: center; justify-content: center;}
+.main-wrap .main-content{width:80%; height:70%; background-color: #E5F3F4; display:flex; align-items: center; justify-content: center;}
 .main-wrap .content-wrap{display: flex; flex-direction: column; justify-content: space-between;}
 
 .main-wrap .quiz-wrap{font-size: 44pt; font-weight:700; margin-bottom:80px;}
@@ -12,4 +12,5 @@ footer{position:absolute; bottom:0; height:40px; line-height:40px; font-family: 
 
 .content-wrap .ending-wrap{font-size: 40pt; font-weight:700;}
 .ending-wrap .ending-title{margin-bottom:100px;}
-.ending-wrap .ending-content{font-size:20pt; font-weight:400;}
+.ending-wrap .ending-content{font-size:20pt; font-weight:400; margin-bottom:50px;}
+.ending-wrap .ending-retry{font-size:22pt; font-weight:700;}
