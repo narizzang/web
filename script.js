@@ -13,7 +13,11 @@ $(document).ready(function() {
 		$('.first-block').show();
 	});
 	$('.content-wrap').hide();
-	$('.first-block').show();
+	$('.intro-block').show();
+	$('.start-btn').on("click", function(e) {
+		$('.content-wrap').hide();
+		$('.first-block').show(300);
+	});
 	$('.answer').on("click", function(e) {
 		console.log(e.target.id);
 		step += 1;

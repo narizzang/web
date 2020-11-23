@@ -4,6 +4,9 @@ footer{position:absolute; bottom:0; height:40px; line-height:40px; font-family: 
 .main-wrap {display: flex; height:100%; justify-content: center; align-items: center;}
 .main-wrap .main-content{width:80%; height:70%; background-color: #E5F3F4; display:flex; align-items: center; justify-content: center;}
 .main-wrap .content-wrap{display: flex; flex-direction: column; justify-content: space-between;}
+.content-wrap .intro-wrap{font-size:54pt; font-weight:700; margin-bottom:100px;}
+.content-wrap .start-btn-wrap{margin: 0 auto;}
+.start-btn-wrap .start-btn{text-align: center; background-color: #fff; border-radius:10px; font-size:22pt; font-weight:700; padding:10px 30px;}
 
 .main-wrap .quiz-wrap{font-size: 44pt; font-weight:700; margin-bottom:80px;}
 .main-wrap .answer-wrap{display: flex; flex-direction:column; align-items:center;}
