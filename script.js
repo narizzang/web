@@ -21,6 +21,7 @@ $(document).ready(function() {
 			$('.content-wrap').hide();
 			$('.second-block').show(300);
 			if (e.target.id == "num1") {
+				flag1=0;
 				$('.ending-title .result').text("나리");
 			} else if (e.target.id == "num2" || e.target.id == "num3") {
 				$('.ending-title').text("뭐야 나가세요;")
@@ -48,6 +49,9 @@ $(document).ready(function() {
 				if (flag2 == 1) {
 					$('.ending-title .result').text("이상한 사람");
 					$('.ending-content').html("메이플 하는 사람 중에 나쁜 사람은 없는데...");
+				}
+				if (flag1 ==0 && flag2 == 0) {
+					$('.ending-content').html("착하고 메이플을 즐기는 사람은 바로!<br/>나리에요 ><");
 				}
 			} else if (e.target.id == "num2" || e.target.id == "num3") {
 				if (flag2 != 1 && flag2 != 2) {
